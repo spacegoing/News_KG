@@ -1,0 +1,73 @@
+* Comp News Map
+
+** References
+
+*** onetwo.Ben
+
+Knowledge Base: *Relationship* between entities
+
+知识提取、本体存储
+
+- 分析推理
+- 知识利用
+
+**** Inputs
+
+- 公司
+- 管理层
+- 新闻事件
+- 使用者个人偏好
+
+**** Outputs
+
+- Relationship
+
+**** Application
+
+- 实体进行基本面分析
+- 实体集合进行量化分析
+
+- 风控
+- 反欺诈
+- 获客
+
+**** Workflow
+
+- Scraping: Web page; OCR Documents -> Dirty Data (Unstructured, Noisy)
+  - Cost:
+    - Engineer: Adaptive scraping rules to large scale dataset
+    - Data Feed
+  - Return: None
+- Data Wrangling: Dirty Data -> Clean Data (De-noising; Stemming; Lemmatizing)
+  - Cost:
+    - Human Annotation
+  - Return: None
+- Data Representation / Structuralization: Raw Data -> Structured
+  Representation
+  - Cost:
+    - Engineer: Large Scale, High Performance Database (Hadoop, Scala, Hypertable)
+    - Hardware: Massive Computational Resources; Storage
+      Resources (CPU, Memory, Disk, Network)
+  - Return: Data Feed (TRTH)
+
+- Entity Recognition: Structured Representation -> Entity
+  - Cost:
+    - Human Annotation
+- Entity Linking / Graph Construction: Entity + Structured
+  Data -> Relationships
+  - Cost:
+    - Human Annotation
+- Inference: Applications on Relationships between Entities
+
+
+
+** New Tech
+
+*** Data
+
+**** XBRL (Extensible Business Reporting Language)
+
+- Specification; Taxonomy; Instance
+
+
+

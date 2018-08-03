@@ -1,0 +1,11 @@
+* Knowledge Graphs
+** KG in Finance
+- url: https://mp.weixin.qq.com/s/Lg86oFwJbd1uskZtsiQ3UQ
+
+*** Extraction
+- NER
+- Link Generation
+- Disambiguation (Entity Resolution, Coreference Resolution)
+  - Most important / difficult part
+  - Merging multi data sources
+

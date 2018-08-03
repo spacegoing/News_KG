@@ -1,0 +1,15 @@
+* CRC-P Reference
+
+** Social Network Applications
+
+问题：信息在社交网络中的传播机制
+
+应用：
+- 病毒式营销(viral marketing)
+- 社会行为预测(social behavior prediction)
+- 社会化推荐(social recommendation)
+- 社区发现(community detection)
+- 有影响力的传播者(influential spreaders)发现
+- 信息源检测(information source detection)
+
+- [陈恩红: 社交网络的信息传播分析及其应用]: https://mp.weixin.qq.com/s/L0IbrQY2FnHscV46LBeuBg
